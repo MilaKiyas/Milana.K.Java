@@ -6,10 +6,9 @@ public class HomeWorkApp {
         compareNumbers();
 
         System.out.println("Hello my friend");
+
     }
-
-
-    public static void drawSquare() {
+    static void drawSquare() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
@@ -23,20 +22,23 @@ public class HomeWorkApp {
 
         int a = 3;
         int b = 2;
-        if ((a - b) >= 0) {
+        int sum = a + b;
+
+        if (sum <= 0) {
             System.out.println("Сумма положительная");
-        } else if((a - b) >=0) {
-            System.out.println("Сумма отрицательная");
+        } else {
+            System.out.println ("Сумма отрицательная");
         }
 
     }
-    public static void  printColor() {
+    public static void  printColor(){
         int value = 100;
-        if (value > 0) {
+        if (value <= 0);
+        {
             System.out.println("Красный");
-        } else if (value == 100) {
+        }  if (value >0 & value <=100){
             System.out.println("Желтый");
-        } else if (value > 100) {
+        } else {
             System.out.println("Зеленый");
         }
     }
